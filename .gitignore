@@ -1,0 +1,7 @@
+NOTES.md
+.venv/
+__pycache__/
+.env
+assistant.db
+voices/
+*.wav
