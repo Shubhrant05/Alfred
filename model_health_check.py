@@ -1,3 +1,5 @@
+## this is a throw away script only for testing 
+
 import requests as req
 
 response = req.post(
