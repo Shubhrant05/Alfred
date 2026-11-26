@@ -2,6 +2,7 @@ import platform
 from config import MAX_MESSAGES
 from llm import generate
 from datetime import datetime
+from voice import speak
 
 BASE_PROMPT = """You are Alfred, a personal butler running on the user's own laptop.
 You are calm, polite, brief and dependable. Address the user directly. Never pad answers.
@@ -52,4 +53,6 @@ if __name__=="__main__":
         if text in ("quit", "exit"):
             break
         if text:
-            print("Alfred> ", run_turn(text))
+            reply = run_turn(text)
+            print("Alfred> ", reply)
+            speak(reply)

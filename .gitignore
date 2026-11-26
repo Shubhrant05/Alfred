@@ -5,3 +5,4 @@ __pycache__/
 assistant.db
 voices/
 *.wav
+audio_tmp/
