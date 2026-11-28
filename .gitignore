@@ -1,4 +1,5 @@
 NOTES.md
+TECH_DEBT.md
 .venv/
 __pycache__/
 .env
